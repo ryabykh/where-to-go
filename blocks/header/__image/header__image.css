@@ -1,0 +1,10 @@
+.header__image{
+    width: 382px;
+    height: 382px;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    right: 94px;
+    bottom: 146px;
+    z-index: 1;
+}
