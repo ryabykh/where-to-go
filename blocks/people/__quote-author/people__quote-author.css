@@ -1,7 +1,7 @@
-.people__quote-author{
-    font-family: HP Simplified;
+.people__quote-author {
+    font-family: 'Roboto Condensed';
     font-style: normal;
-    font-weight: normal;
+    font-weight: 700;
     font-size: 14px;
     margin: 0;
     text-transform: uppercase;

@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./fonts/fonts.css">
     <link rel="stylesheet" href="./pages/index.css">
     <title>Куда я поеду</title>
 </head>
+
 <body class="page">
 
     <header class="header">
@@ -25,16 +28,18 @@
         </nav>
         <h1 class="header__title">Куда я поеду</h1>
         <p class="header__subtitle">Куда я поеду сразу, как можно будет куда-то поехать</p>
-        <img src="./images/intro-image.jpeg" alt="небо" class="header__image">  
+        <img src="./images/intro-image.jpeg" alt="небо" class="header__image">
     </header>
 
     <section class="places">
         <article class="place">
-            <div class="place__image-wrapper"> 
+            <div class="place__image-wrapper">
+                <!-- div class="place__image-wrapper" - лишняя обертка, полагаю достаточно одного div которому задать background-image, либо просто картинку с тегом img - тогда и модификатор не нужен-->
                 <div class=" place__image place__image_nature_forest"></div>
-            </div>  
+            </div>
             <div class="place__wrapper">
                 <h2 class="place__title">Поеду в лес</h2>
+                <!-- проверял твою разметку в валидаторе БЭМ - ошибок не было, тем не менее мой ревьювер писал что в элемент нельзя вкладывать элемент, для меня это остается неразрешенным вопросом по БЭМ, надеюсь узнать ответ у наставника как будет возможность -->
                 <div class="place__description">
                     <p class="place__paragraph">Лес — экологическая система, биоценоз, в которой главной жизненной формой являются деревья.</p>
                     <p class="place__paragraph">Лес — составная часть природы, понятие «лес» можно рассматривать на разных уровнях. В глобальном масштабе — это часть биосферы, в локальном — это может быть насаждение. Леса занимают около трети площади суши.</p>
@@ -42,20 +47,21 @@
             </div>
         </article>
         <article class="place">
-            <div class="place__image-wrapper"> 
+            <div class="place__image-wrapper">
                 <div class=" place__image place__image_nature_mountains"></div>
-            </div>  
+            </div>
             <div class="place__wrapper">
                 <h2 class="place__title">Поеду в горы</h2>
                 <div class="place__description">
-                    <p class="place__paragraph">Горные системы занимают 64 % поверхности Азии, 36 % — Северной Америки, 25 % — Европы, 22 % — Южной Америки, 17 % — Австралии и 3 % — Африки. В целом 24 % земной поверхности приходится на горы. 10 % всех людей живёт на территории гор. В горах берёт своё начало большинство рек Земли.</p>
+                    <p class="place__paragraph">Горные системы занимают 64 % поверхности Азии, 36 % — Северной Америки, 25 % — Европы, 22 % — Южной Америки, 17 % — Австралии и 3 % — Африки. В целом 24 % земной поверхности приходится на горы. 10 % всех людей живёт на территории гор.
+                        В горах берёт своё начало большинство рек Земли.</p>
                 </div>
             </div>
         </article>
         <article class="place">
-            <div class="place__image-wrapper"> 
+            <div class="place__image-wrapper">
                 <div class=" place__image place__image_nature_sea"></div>
-            </div>  
+            </div>
             <div class="place__wrapper">
                 <h2 class="place__title">Поеду на Чёрное море</h2>
                 <div class="place__description">
@@ -72,6 +78,7 @@
         <p class="people__subtitle">Что говорят и говорили люди о путешествиях</p>
         <ul class="people__quotes">
             <li>
+                <!-- Отлично, очень хорошая разметка! У вас походу был другой ревьювер) -->
                 <blockquote class="people__quote">
                     <cite class="people__quote-author">Иван Бунин</cite>
                     <p class="people__quote-text">Человека делают счастливым три вещи: любовь, интересная работа и возможность путешествовать.</p>
@@ -99,15 +106,22 @@
     </section>
 
     <section class="form">
-
+        <div class="form-block">
+            <h2 class="form-block__title">Так куда же я поеду?</h2>
+            <input type="text" class="form-block__input" placeholder="   Я поеду . . .">
+            <textarea cols="30" rows="10" class="form-block__textarea" placeholder="   Потому что я . . ."></textarea>
+            <button class="form-block__button">Поехали уже куда-нибудь!</button>
+        </div>
+        <img src="./images/airport-schedule.jpg" alt="аэропорт" class="form__image">
     </section>
 
     <section class="video">
-    
+
     </section>
-    
+
     <footer class="footer">
 
     </footer>
 </body>
+
 </html>
