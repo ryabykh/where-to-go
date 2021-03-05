@@ -1,7 +1,5 @@
 @import url(../vendors/normalize.css);
-
 @import url(../blocks/page/page.css);
-
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__menu/header__menu.css);
 @import url(../blocks/header/__menu-items/header__menu-items.css);
@@ -10,7 +8,6 @@
 @import url(../blocks/header/__title/header__title.css);
 @import url(../blocks/header/__subtitle/header__subtitle.css);
 @import url(../blocks/header/__image/header__image.css);
-
 @import url(../blocks/places/places.css);
 @import url(../blocks/place/place.css);
 @import url(../blocks/place/__image-wrapper/place__image-wrapper.css);
@@ -21,8 +18,6 @@
 @import url(../blocks/place/__wrapper/place__wrapper.css);
 @import url(../blocks/place/__title/place__title.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
-
-
 @import url(../blocks/people/people.css);
 @import url(../blocks/people/__title/people__title.css);
 @import url(../blocks/people/__subtitle/people__subtitle.css);
@@ -31,9 +26,11 @@
 @import url(../blocks/people/__quote-author/people__quote-author.css);
 @import url(../blocks/people/__quote-text/people__quote-text.css);
 
+/* Блок form */
 
-
-
-
-
-
+@import url("../blocks/form/form.css");
+@import url("../blocks/form/form__image/form__image.css");
+@import url("../blocks/form/form-block/__title/form-block__title.css");
+@import url("../blocks/form/form-block/__input/form-block__input.css");
+@import url("../blocks/form/form-block/__textarea/form-block__textarea.css");
+@import url("../blocks/form/form-block/__button/form-block__button.css");

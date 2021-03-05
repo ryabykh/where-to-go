@@ -1,4 +1,4 @@
-.header__image{
+.header__image {
     width: 382px;
     height: 382px;
     object-fit: cover;
@@ -7,4 +7,5 @@
     right: 94px;
     bottom: 146px;
     z-index: 1;
+    /* можно задать z-index: -1, тогда другим блокам не надо ничего менять, по умолчанию у всех z-index: 0 */
 }
