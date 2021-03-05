@@ -69,3 +69,9 @@
         max-width: 282px;
     }
 }
+
+@media (max-width: 767px) {
+    .form-block__input {
+        margin: 0 0 20px 24px;
+    }
+}

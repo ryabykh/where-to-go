@@ -69,3 +69,9 @@
         max-width: 282px;
     }
 }
+
+@media (max-width: 767px) {
+    .form-block__textarea {
+        margin-left: 24px;
+    }
+}
