@@ -11,6 +11,12 @@
     }
 }
 
+@media (max-width: 783px) {
+    .form-block__title {
+        max-width: 480px;
+    }
+}
+
 @media (max-width: 767px) {
     .form-block__title {
         font-size: 24px;
