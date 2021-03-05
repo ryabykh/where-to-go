@@ -13,6 +13,7 @@
 
 @media (max-width: 783px) {
     .form {
+        grid-template-columns: minmax(320px, 783px);
         grid-template-rows: 430px 430px;
     }
 }
