@@ -27,11 +27,12 @@
 @import url(../blocks/people/__quote-author/people__quote-author.css);
 @import url(../blocks/people/__quote-text/people__quote-text.css);
 @import url("../blocks/form/form.css");
-@import url("../blocks/form/form__image/form__image.css");
-@import url("../blocks/form/form-block/__title/form-block__title.css");
-@import url("../blocks/form/form-block/__input/form-block__input.css");
-@import url("../blocks/form/form-block/__textarea/form-block__textarea.css");
-@import url("../blocks/form/form-block/__button/form-block__button.css");
+@import url("../blocks/form/__image/form__image.css");
+@import url("../blocks/form-block/form-block.css");
+@import url("../blocks/form-block/__title/form-block__title.css");
+@import url("../blocks/form-block/__input/form-block__input.css");
+@import url("../blocks/form-block/__textarea/form-block__textarea.css");
+@import url("../blocks/form-block/__button/form-block__button.css");
 @import url("../blocks/video/video.css");
 @import url("../blocks/video/__src/video__src.css");
 @import url("../blocks/video/__text/video__text.css");

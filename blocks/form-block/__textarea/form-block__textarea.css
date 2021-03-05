@@ -62,3 +62,10 @@
     opacity: .1;
     transition: opacity 0.3s ease;
 }
+
+@media (max-width: 1023px) {
+    .form-block__textarea {
+        margin-left: 50px;
+        max-width: 282px;
+    }
+}

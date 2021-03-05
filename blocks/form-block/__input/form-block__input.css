@@ -1,7 +1,7 @@
 .form-block__input {
     width: 382px;
     min-height: 34px;
-    margin: 0 0 20px 78px;
+    margin: 0 20px 20px 78px;
     border: none;
     outline: none;
     color: #000;
@@ -61,4 +61,11 @@
 .form-block__input:focus:-ms-input-placeholder {
     opacity: .1;
     transition: opacity 0.3s ease;
+}
+
+@media (max-width: 1023px) {
+    .form-block__input {
+        margin-left: 50px;
+        max-width: 282px;
+    }
 }
