@@ -1,6 +1,6 @@
 .place__wrapper{
     min-width: 50%;
-    background-color: #E3DFDF;
+    background-color: #f2f2f2;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
