@@ -4,8 +4,34 @@
     object-fit: cover;
     object-position: center;
     position: absolute;
-    right: 94px;
-    bottom: 146px;
+    right: 171px;
+    bottom: 139px;
     z-index: 1;
-    /* можно задать z-index: -1, тогда другим блокам не надо ничего менять, по умолчанию у всех z-index: 0 */
+}
+
+@media screen and (max-width: 1279px) {
+    .header__image{
+        width: 360px;
+        height: 360px;
+        right: 120px;
+        bottom: 100px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .header__image{
+        width: 360px;
+        height: 360px;
+        right: 70px;
+        bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header__image {
+        width: 100%;
+        position: static;
+        object-fit: cover;
+        object-position: top left;
+    }
 }

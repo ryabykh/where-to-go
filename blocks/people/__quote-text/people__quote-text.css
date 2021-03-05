@@ -7,3 +7,16 @@
     margin-top: 35px;
     margin-bottom: 0;
 }
+
+@media screen and (max-width: 1023px){
+    .people__quote-text{
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .people__quote-text{
+        font-size: 16px;
+        margin-top:     10px;
+    }
+}

@@ -1,10 +1,16 @@
-.people__subtitle{
+.people__subtitle {
+    font-family: 'Roboto Condensed';
     font-style: normal;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 44px;
-    max-width: 430px;
-    width: 100%;
-    margin-top: 43px;
-    margin-bottom: 137px;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    color: #F1506D;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 767px){
+    .people__subtitle{
+        font-size: 16px;
+    }
 }
