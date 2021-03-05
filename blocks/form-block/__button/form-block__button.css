@@ -17,3 +17,9 @@
 .form-block__button:active {
     transform: translateY(1px);
 }
+
+@media (max-width: 1023px) {
+    .form-block__button {
+        margin-left: 119px;
+    }
+}
